@@ -38,7 +38,7 @@ steps:
       - chmod +x output
       - ./output
 
-volumes:
-  - name: reports
-    host:
-      path: /home/dev/work/src/github.com/LeeDark/drone-go-git-test/reports
+#volumes:
+#  - name: reports
+#    host:
+#      path: /home/dev/work/src/github.com/LeeDark/drone-go-git-test/reports
